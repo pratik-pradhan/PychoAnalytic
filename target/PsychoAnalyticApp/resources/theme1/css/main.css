@@ -1,0 +1,30 @@
+.titleheading{
+	color:black;
+	text-align:center;
+}
+
+fieldset {
+     padding: .35em .625em .75em; 
+     margin: 3px 3px; 
+     border: 1px solid #c0c0c0;
+ }
+ 
+ legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 21px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 0px solid #e5e5e5;
+    text-align : center;
+    }
+    
+    .accordianBox{
+       margin: 0 0 2% 2%; 
+       padding: .35em .625em .75em; 
+       width: 90%;
+       border: 1px solid blue;
+    }
