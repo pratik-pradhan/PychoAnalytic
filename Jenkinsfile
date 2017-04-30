@@ -9,10 +9,10 @@ node{
 	}
 
 	stage('build'){
-        sh 'mvn clean install'
+	    bat 'mvn clean install'
 	}
 
 	stage('test'){
-	   sh 'mvn clean test'
+	   bat 'mvn clean test'
 	}
 }
